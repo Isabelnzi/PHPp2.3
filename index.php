@@ -8,7 +8,7 @@
     <p>
       <?php
  $age = 22;
- $gender = 'men';
+ $gender = 'women';
 
  if($age >= 18 && $gender == 'men')
  {
@@ -18,15 +18,7 @@
  {
    echo 'vous êtes mineur et vous êtes un homme';
  }
- ?>
-</p>
-
-<p>
-<?php
-$age = 21;
-$gender = 'women';
-
- if($age >= 18 && $gender == 'women')
+ elseif($age >= 18 && $gender == 'women')
  {
    echo 'vous êtes majeur et vous êtes une femme';
  }
